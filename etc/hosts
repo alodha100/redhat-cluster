@@ -1,0 +1,23 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+
+172.16.5.1 node1 node1.public node1.public.cluster5.example.com 
+172.17.5.1 node1.private node1.private.cluster5.example.com
+172.18.5.1 node1.storage1 node1.storage1.cluster5.example.com
+172.19.5.1 node1.storage2 node1.storage2.cluster5.example.com
+
+172.16.5.2 node2 node2.public node2.public.cluster5.example.com 
+172.17.5.2 node2.private node2.private.cluster5.example.com
+172.18.5.2 node2.storage1 node2.storage1.cluster5.example.com
+172.19.5.2 node2.storage2 node2.storage2.cluster5.example.com
+
+172.16.5.3 node3 node3.public node3.public.cluster5.example.com 
+172.17.5.3 node3.private node3.private.cluster5.example.com
+172.18.5.3 node3.storage1 node3.storage1.cluster5.example.com
+172.19.5.3 node3.storage2 node3.storage2.cluster5.example.com
+
+172.16.5.4 node4 node4.public node4.public.cluster5.example.com 
+172.17.5.4 node4.private node4.private.cluster5.example.com
+172.18.5.4 node4.storage1 node4.storage1.cluster5.example.com
+172.19.5.4 node4.storage2 node4.storage2.cluster5.example.com

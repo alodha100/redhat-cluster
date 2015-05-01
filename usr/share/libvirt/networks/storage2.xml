@@ -1,0 +1,19 @@
+<network connections='4'>
+  <name>storage2</name>
+  <uuid>e3c105cb-e47a-3ae6-4cb9-7183290635eb</uuid>
+  <forward mode='nat'/>
+  <bridge name='storage2' stp='on' delay='0' />
+  <mac address='52:54:00:1B:AC:B3'/>
+  <domain name='example.com'/>
+  <ip address='172.19.5.254' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='172.19.5.1' end='172.19.5.50' />
+      <host mac='08:00:07:26:c1:03' name='node1.storage2' ip='172.19.5.1' />
+      <host mac='08:00:07:26:c2:03' name='node2.storage2' ip='172.19.5.2' />
+      <host mac='08:00:07:26:c3:03' name='node2.storage2' ip='172.19.5.3' />
+      <host mac='08:00:07:26:c4:03' name='node2.storage2' ip='172.19.5.4' />
+      <host mac='52:54:00:de:ba:03' name='gold.storage2' ip='172.19.5.10' />
+    </dhcp>
+  </ip>
+</network>
+

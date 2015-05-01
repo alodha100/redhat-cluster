@@ -1,0 +1,18 @@
+<network connections='4'>
+  <name>private</name>
+  <uuid>44a97891-6776-ecea-ad3d-8daaf7e6ad6e</uuid>
+  <forward mode='nat'/>
+  <bridge name='private' stp='on' delay='0' />
+  <mac address='52:54:00:E5:3D:75'/>
+  <ip address='172.17.5.254' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='172.17.5.1' end='172.17.5.50' />
+      <host mac='08:00:07:26:c1:01' name='node1.private' ip='172.17.5.1' />
+      <host mac='08:00:07:26:c2:01' name='node2.private' ip='172.17.5.2' />
+      <host mac='08:00:07:26:c3:01' name='node2.private' ip='172.17.5.3' />
+      <host mac='08:00:07:26:c4:01' name='node2.private' ip='172.17.5.4' />
+      <host mac='52:54:00:de:ba:01' name='gold.private' ip='172.17.5.10' />
+    </dhcp>
+  </ip>
+</network>
+
