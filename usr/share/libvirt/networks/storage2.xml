@@ -1,4 +1,4 @@
-<network connections='4'>
+<network>
   <name>storage2</name>
   <uuid>e3c105cb-e47a-3ae6-4cb9-7183290635eb</uuid>
   <forward mode='nat'/>
